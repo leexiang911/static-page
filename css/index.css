@@ -1,0 +1,215 @@
+html {
+    font-size: 62.5% !important;
+    /* 取默认字体的百分比 */
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 59%;
+    }
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 56%
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a:hover {
+    text-decoration: none;
+    /* background-color: #858585; */
+    /* font-stretch: normal; */
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 左侧内容 */
+.leftCon {
+    left: 0;
+}
+
+.leftCon header {
+    height: 80px;
+}
+
+.leftCon header ul a.navlink {
+    font-size: 1.6rem;
+}
+
+.leftCon .icon-caidan1 {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #858585;
+}
+
+.login {
+    height: calc(100vh - 80px);
+}
+
+.login a {
+    font-size: 1.6rem;
+}
+
+.menu {
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 2000;
+    transition: 0.3s;
+}
+
+.menu.hide {
+    opacity: 0;
+    transform: scale(2);
+    z-index: -1000;
+}
+
+.menu.show {
+    opacity: 1;
+    transform: scale(1);
+
+}
+
+.menu .list ul a {
+    font-size: 1.8rem;
+}
+
+.menu .font,
+.menu .font .btn {
+    font-size: 1.6rem;
+}
+
+@media (max-width:991.98px) {
+    .leftCon {
+        position: relative !important;
+    }
+
+    .login {
+        height: auto;
+    }
+}
+
+.menu footer {
+    font-size: 1.4rem;
+}
+
+.menu footer,
+.menu footer a {
+    color: rgba(0, 0, 0, 0.38);
+}
+
+#closeBtn {
+    cursor: pointer;
+}
+
+/* 右侧内容 */
+#pic .icon-xiangyoujiantou,
+#pic .icon-xiangzuojiantou {
+    font-size: 6rem;
+    color: rgb(236, 243, 236);
+}
+
+.star h2 {
+    font-size: 2.2rem;
+}
+
+.star p {
+    font-size: 1.6rem;
+    line-height: 34px;
+}
+
+.star a {
+    color: #c2a661;
+}
+
+.betters h3,
+.teach h3 {
+    font-size: 2.2rem;
+}
+
+.betters p,
+.teach p {
+    font-size: 1.6rem;
+}
+
+.betters li {
+    margin-top: 56px;
+}
+
+.betters li a {
+    transition: 0.2s;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.betters li a img {
+    width: 40%;
+    margin-top: -28px;
+}
+
+.betters li a h4 {
+    font-size: 1.6rem;
+}
+
+.betters li a p {
+    font-size: 1.4rem;
+}
+
+.betters li a p.caption {
+    font-size: 1.2rem;
+    color: #c2a661;
+    opacity: 0.7;
+}
+
+.betters li a:hover {
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.22);
+    transform: translateY(-5px);
+}
+
+.teach ul{
+	width: 1216px;
+}
+.teach li{
+	width: 288px;
+}
+
+.scroll li{
+    transition: 0.2s;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+}
+.scroll li span{
+    font-size: 1.4rem;
+    background: #c2a661;
+    left: 0;
+    top: 6px;
+}
+
+.scroll li:hover{
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.11);
+    transform: translateY(-5px)
+}
+
+.footer ul{
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
+}
+.footer span.iconfont{
+    font-size: 2.5rem;
+}
+.footer a.active li{
+    color: #00a862!important;
+}
